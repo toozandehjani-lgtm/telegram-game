@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Game</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Game!</h1>
+    <p>Click the button to collect points!</p>
+    <button onclick="collectPoint()">Collect Point</button>
+    <p id="score">Score: 0</p>
+
+    <script>
+        let score = 0;
+
+        function collectPoint() {
+            score++;
+            document.getElementById('score').innerText = Score: ${score};
+        }
+    </script>
+</body>
+</html>
